@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+	background-color:transparent !important;
+	color: #f8f9fa;
+	margin-left: -100px;
+}
+
+.lead {
+	padding-top: 20px;
+	line-height: 2.4;
+	letter-spacing: .2px;
+}
+
+.content {
+	padding-top: 100px;
+}
+
+.buttons {
+	padding-top: 40px;
+}
+
+.btn {
+	margin-right: 20px;
+}
+
+.footer {
+	position: absolute; bottom: 0;
+	font-size: 11px;
+	color: #868e96;
+}
+
+.footer a {
+
+	opacity: 1
+}
+.video {
+	margin-left: -800px;
+	width: 200%;
+ position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -100;
+  object-fit: cover;
+}
+
+.header {
+
+	position: absolute; top: 0;
+	
+}
+

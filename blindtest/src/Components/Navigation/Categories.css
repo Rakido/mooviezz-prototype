@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'JLG';
+  font-style: normal;
+  font-weight: bold;
+  src:
+    local('TPHero Bold'),
+    local('TPHero-Bold'),
+    url(./jeanlucweb.otf) format('opentype');
+}
+
+img {
+	margin-bottom :-25%;
+}
+
+.greetings{
+	font-size: 24px;
+	padding-top: 50px;
+	color: white;
+	text-align: center;
+	border-bottom: solid 1px white;
+}
+
+.categories {
+	padding-top: 40px;
+	font-family: JLG;
+	font-size:100px;
+	line-height: 100px;
+	text-align: center;
+text-shadow: 2px 2px 1px rgba(0,0,0,0.50)
+}
+
+
+.categories span {
+	
+}
+
+.subtitle {
+	font-family: sans-serif;
+	color:white;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+body {
+	background-color: #222B32;
+}
+
+.categories a {
+	text-decoration: none;
+}
+
+
+.categories a:visited {
+	color: inherit;
+}
+
+.info{
+	color: white;
+	font-size: 20px;
+	display: inline;
+	margin-right: 20px;
+}

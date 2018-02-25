@@ -1,0 +1,57 @@
+.SubBarSite {
+
+color: #FFFFFF;
+letter-spacing: 0.46px;
+text-shadow: 2px 2px 1px rgba(0,0,0,0.50);
+width: auto;
+margin-top:-5px;
+}
+
+.resume {
+	display: flex;
+
+
+}
+
+.live {
+	width:50px;
+	height:20px;
+	background-color: #AB1739;
+	letter-spacing: 2.35px;
+	vertical-align: middle;
+	margin-right: 20px;
+	border-radius: 4px;
+}
+
+.name {
+	margin-right: 20px;
+}
+.extrait {
+	margin-right: 20px;
+}
+.compteur {
+	margin-right: 20px;
+
+}
+
+.points {
+	display: inline-block;
+	font-size: 10px;
+
+}
+
+.points ul li {
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	margin-right: 30px;
+	margin-top: -5px;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 50px;
+	list-style: none;
+
+}
+
+.points ul {
+display: flex;
+}

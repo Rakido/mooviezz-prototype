@@ -1,0 +1,50 @@
+.PlayerInput{
+  padding: 25px;
+  width: calc(100% - 50px);
+  
+  border: none;
+  
+  font-size: 20px;
+}
+
+.wrapper {
+	min-height: 0;
+}
+
+.timer {
+	position: fixed;
+	z-index: 98;
+	left: -60px;
+	top: 575px;
+	transform: rotate(90deg);
+	transform: scale(0.3);
+/*	position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;*/
+  margin: auto;
+  fill: rgba(0,0,0,0.2);
+  stroke: #AB1739;
+  animation-name: seconds;
+	animation-duration: 30s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+  stroke-dasharray: 502;
+  stroke-dashoffset: 502; 
+}
+
+@keyframes seconds {
+  0% {
+    stroke-dashoffset: 502;
+    stroke: yellow;
+  }
+  50% {
+    stroke: orange;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke: #AB1739;
+  }
+}

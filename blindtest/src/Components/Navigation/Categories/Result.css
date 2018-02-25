@@ -1,0 +1,100 @@
+@keyframes Move {     
+from {
+
+  opacity: 0;
+  }
+to {
+
+  opacity: 1;}
+}
+
+@keyframes Move2 {     
+from {
+
+  opacity: 0;
+  }
+to {
+
+  opacity: 0.57;}
+}
+
+
+.result-box{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  
+  border-radius: 4px;
+
+  background-color: #000;
+  opacity: .85;
+
+}
+
+  .title {
+    color: #FFF;
+    opacity: 0;
+    animation:Move cubic-bezier(0.4, 0.0, 0.2, 1); 
+animation-fill-mode:forwards; 
+animation-duration:0.375s;
+animation-delay: .3s
+  }
+
+  .director {
+    color:#FFF;
+    opacity: 0;
+    font-size:24px;
+      animation:Move2 cubic-bezier(0.4, 0.0, 0.2, 1); 
+animation-fill-mode:forwards; 
+animation-duration:0.375s;
+animation-delay: .6s
+  }
+
+  .score {
+  color:#FFF;
+    opacity: 0;
+    font-size:16px;
+      animation:Move2 cubic-bezier(0.4, 0.0, 0.2, 1); 
+animation-fill-mode:forwards; 
+animation-duration:0.375s;
+animation-delay: .8s
+
+  }
+
+
+.playAgain {
+  opacity: 0;
+  background-color:#AB1739;
+  margin: auto;
+  border: none;
+  animation:Move cubic-bezier(0.4, 0.0, 0.2, 1); 
+animation-fill-mode:forwards; 
+animation-duration:0.375s;
+animation-delay: 1.1s
+}
+
+
+  .result-box .wrapper{
+    text-align: center;
+  }
+    .result-box h1{
+      font-size: 5em;
+      text-align: center;
+    }
+   /* .result-box .wrapper button.playAgain:after{
+      content: "Play again";
+    }
+    .result-box .wrapper button.playAgain:before{
+      content: "Now !";
+    }*/
+
+.shown{
+  display: flex;
+}
+
