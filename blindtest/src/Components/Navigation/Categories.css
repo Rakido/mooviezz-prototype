@@ -5,7 +5,7 @@
   src:
     local('TPHero Bold'),
     local('TPHero-Bold'),
-    url(./jeanlucweb.otf) format('opentype');
+    url(../../assets/fonts/jeanlucweb.otf) format('opentype');
 }
 
 img {
